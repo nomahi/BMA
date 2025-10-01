@@ -20,6 +20,7 @@ Manual: [please click this link](https://github.com/nomahi/BMA/blob/main/BMA_1.1
 
 
 
+## Example code
 ```r
 
 pkgCheck <- function(pkg){
@@ -50,5 +51,6 @@ edit_Mg <- escalc(measure="OR", ai=d1, n1i=n1, ci=d0, n2i=n0, data=magnesium)
 
 BMA(yi, vi, data=edit_Mg, eform=TRUE)
 # The Bartlett-type corrections for random-effects meta-analysis
+
 
 
