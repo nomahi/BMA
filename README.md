@@ -14,7 +14,7 @@ Please download "BMA_1.1.1.tar.gz" and install it by R menu: "packages" -> "Inst
 
 Download: [please click this link](https://github.com/nomahi/BMA/raw/main/BMA_1.1.1.tar.gz)
 
-Manual: [please click this link](https://github.com/nomahi/BMA/raw/main/BMA_1.1-1.pdf)
+Manual: [please click this link](https://github.com/nomahi/BMA/blob/main/BMA_1.1.1.pdf)
 
 
 
@@ -50,4 +50,5 @@ edit_Mg <- escalc(measure="OR", ai=d1, n1i=n1, ci=d0, n2i=n0, data=magnesium)
 
 BMA(yi, vi, data=edit_Mg, eform=TRUE)
 # The Bartlett-type corrections for random-effects meta-analysis
+
 
