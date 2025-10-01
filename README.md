@@ -4,7 +4,7 @@
 
 ## Bartlett-type corrections for improved confidence intervals in random-effects meta-analysis
 
-In medical meta-analysis, the DerSimonian–Laird and restricted maximum likelihood (REML) confidence intervals for the average treatment effect have been widely used in practice. However, it is well recognized that their coverage probabilities, that is, the probabilities that the intervals contain the true value, can fall substantially below the nominal level. One important reason is that the validity of these confidence intervals relies on the assumption that the number of studies included in the synthesis is sufficiently large. In most medical meta-analyses, however, the number of studies is fewer than 20. Noma (2011) <doi:10.1002/sim.4350> developed three alternative confidence intervals to improve coverage performance, based on (i) the Bartlett-corrected likelihood ratio statistic, (ii) the efficient score statistic, and (iii) the Bartlett-type adjusted efficient score statistic. The Bartlett and Bartlett-type corrections enhance the large-sample approximations for the likelihood ratio and efficient score statistics, and markedly improve coverage performance.
+In medical meta-analysis, the DerSimonian–Laird and restricted maximum likelihood (REML) confidence intervals for the average treatment effect have been widely used in practice. However, it is well recognized that their coverage probabilities, that is, the probabilities that the intervals contain the true value, can fall substantially below the nominal level. One important reason is that the validity of these confidence intervals relies on the assumption that the number of studies included in the synthesis is sufficiently large. In most medical meta-analyses, however, the number of studies is fewer than 20. Noma (2011) (https://doi.org/10.1002/sim.4350) developed three alternative confidence intervals to improve coverage performance, based on (i) the Bartlett-corrected likelihood ratio statistic, (ii) the efficient score statistic, and (iii) the Bartlett-type adjusted efficient score statistic. The Bartlett and Bartlett-type corrections enhance the large-sample approximations for the likelihood ratio and efficient score statistics, and markedly improve coverage performance.
 
 
 
@@ -50,3 +50,4 @@ edit_Mg <- escalc(measure="OR", ai=d1, n1i=n1, ci=d0, n2i=n0, data=magnesium)
 
 BMA(yi, vi, data=edit_Mg, eform=TRUE)
 # The Bartlett-type corrections for random-effects meta-analysis
+
